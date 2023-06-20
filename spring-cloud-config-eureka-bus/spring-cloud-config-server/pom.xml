@@ -17,6 +17,21 @@
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.7</spring-cloud.version>
     </properties>
+
+    <!-- 声明依赖，并没有实际引入，子项目需要自己再明确写了才能引入   -->
+    <!--  TODO:引入SpringCloud依赖，貌似把所有都声明了，并且固定的版本!!!   -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -43,17 +58,22 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
-            <version>4.0.3</version>
+            <!--            <version>4.0.3</version>-->
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-            <version>4.0.1</version>
+            <!--            <version>4.0.1</version>-->
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <version>4.0.2</version>
+            <!--            <version>4.0.2</version>-->
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 
