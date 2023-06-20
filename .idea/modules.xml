@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard-turbine/hystrix-dashboard-turbine/hystrix-dashboard-turbine.iml" filepath="$PROJECT_DIR$/hystrix-dashboard-turbine/hystrix-dashboard-turbine/hystrix-dashboard-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-eureka-bus/spring-cloud-config-client/spring-cloud-config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-config-eureka-bus/spring-cloud-config-client/spring-cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-eureka-bus/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-eureka-bus/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-producer-consumer/spring-cloud-consumer/spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/eureka-producer-consumer/spring-cloud-consumer/spring-cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-cluster/spring-cloud-eureka-cluster.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-cluster/spring-cloud-eureka-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-two/spring-cloud-eureka-two.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-two/spring-cloud-eureka-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-examples.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-producer-consumer/spring-cloud-producer/spring-cloud-producer.iml" filepath="$PROJECT_DIR$/eureka-producer-consumer/spring-cloud-producer/spring-cloud-producer.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-eureka-two" />
+        <module name="hystrix-dashboard-turbine" />
+        <module name="spring-cloud-eureka-cluster" />
+        <module name="spring-cloud-config-client" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-producer" />
+        <module name="spring-cloud-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hystrix-dashboard-turbine" target="11" />
+      <module name="spring-cloud-config-client" target="11" />
+      <module name="spring-cloud-config-server" target="11" />
+      <module name="spring-cloud-consumer" target="11" />
+      <module name="spring-cloud-eureka" target="11" />
+      <module name="spring-cloud-eureka-cluster" target="11" />
+      <module name="spring-cloud-eureka-two" target="11" />
+      <module name="spring-cloud-producer" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hystrix-dashboard-turbine" options="-parameters" />
+      <module name="spring-cloud-config-client" options="-parameters" />
+      <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="spring-cloud-consumer" options="-parameters" />
+      <module name="spring-cloud-eureka" options="-parameters" />
+      <module name="spring-cloud-eureka-cluster" options="-parameters" />
+      <module name="spring-cloud-eureka-two" options="-parameters" />
+      <module name="spring-cloud-producer" options="-parameters" />
+    </option>
+  </component>
+</project>
