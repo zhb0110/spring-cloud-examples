@@ -1,6 +1,6 @@
 # spring-cloud-examples
 
-SpringCloud实践，简单样例
+SpringCloud实践，简单样例：eureka+config等，传统方法，不推荐
 
 Java 11 + SpringBoot 2.7 + Spring 5.x + Maven.
 
